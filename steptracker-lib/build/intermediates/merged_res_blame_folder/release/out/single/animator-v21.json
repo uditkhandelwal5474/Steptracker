@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "com.steptracker_lib.steptracker-lib-material-1.11.0-21:/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/animator-v21/m3_appbar_state_list_animator.xml",
+        "source": "com.steptracker_lib.steptracker-lib-material-1.11.0-21:/animator-v21/m3_appbar_state_list_animator.xml"
+    }
+]

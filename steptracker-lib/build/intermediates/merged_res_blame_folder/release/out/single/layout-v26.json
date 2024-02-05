@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/layout-v26/mtrl_calendar_month.xml",
+        "source": "com.steptracker_lib.steptracker-lib-material-1.11.0-21:/layout-v26/mtrl_calendar_month.xml"
+    },
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/layout-v26/abc_screen_toolbar.xml",
+        "source": "com.steptracker_lib.steptracker-lib-appcompat-1.6.1-1:/layout-v26/abc_screen_toolbar.xml"
+    }
+]

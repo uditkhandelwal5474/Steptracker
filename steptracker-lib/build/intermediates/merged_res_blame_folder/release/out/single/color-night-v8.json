@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/color-night-v8/material_timepicker_clockface.xml",
+        "source": "com.steptracker_lib.steptracker-lib-material-1.11.0-21:/color-night-v8/material_timepicker_clockface.xml"
+    },
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/color-night-v8/material_timepicker_button_stroke.xml",
+        "source": "com.steptracker_lib.steptracker-lib-material-1.11.0-21:/color-night-v8/material_timepicker_button_stroke.xml"
+    },
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/color-night-v8/material_timepicker_modebutton_tint.xml",
+        "source": "com.steptracker_lib.steptracker-lib-material-1.11.0-21:/color-night-v8/material_timepicker_modebutton_tint.xml"
+    }
+]

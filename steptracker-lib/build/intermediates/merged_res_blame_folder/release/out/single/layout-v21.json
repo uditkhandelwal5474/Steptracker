@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.steptracker_lib.steptracker-lib-core-1.9.0-16:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.steptracker_lib.steptracker-lib-core-1.9.0-16:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.steptracker_lib.steptracker-lib-core-1.9.0-16:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.steptracker_lib.steptracker-lib-merged_res-30:/layout-v21/notification_action.xml",
+        "source": "com.steptracker_lib.steptracker-lib-core-1.9.0-16:/layout-v21/notification_action.xml"
+    }
+]
