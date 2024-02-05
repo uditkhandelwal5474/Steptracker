@@ -1,6 +1,21 @@
+buildscript {
+    ext.kotlin_version = '1.7.20'
+    repositories {
+        google()
+        mavenCentral()
+        mavenLocal()            // << --- ADD This
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
 android {
@@ -18,6 +33,8 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            consumerProguardFiles 'proguard-rules.pro'
+            consumerProguardFiles 'consumer-rules.pro'
         }
     }
     compileOptions {
@@ -28,6 +45,36 @@ android {
         jvmTarget = '1.8'
     }
 }
+// 4. Add This Java Blocs:
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)        // << --- ADD This
+    }
+}
+
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17            // << --- ADD This
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+// 5. Publishing:
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.uditkhandelwal5474'
+            artifactId = 'Steptracker'
+            version = "1.0"
+            pom {
+                description = 'Steptracker Lib'
+            }
+        }
+    }
+    repositories {               // << --- ADD This
+        mavenLocal()
+    }
+}
+
 
 dependencies {
 
